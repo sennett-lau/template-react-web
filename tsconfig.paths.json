@@ -1,0 +1,66 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "typeRoots": [
+      "src/types",
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es6",
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "paths": {
+      "@components/*": [
+        "./components/*"
+      ],
+      "@containers/*": [
+        "./containers/*"
+      ],
+      "@contexts/*": [
+        "./contexts/*"
+      ],
+      "@routes/*": [
+        "./routes/*"
+      ],
+      "@utils/*": [
+        "./utils/*"
+      ],
+      "@hooks/*": [
+        "./hooks/*"
+      ],
+      "@assets/*": [
+        "./assets/*"
+      ],
+      "@pages/*": [
+        "./pages/*"
+      ],
+      "@types/*": [
+        "./types/*"
+      ],
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "node_modules/**/*.d.ts",
+    "node_modules/@types/**/*.d.ts"
+  ]
+}
