@@ -10,7 +10,7 @@ const getWindowDimensions = () => {
 	} as WindowDimensionsType
 }
 
-const useWindowDimensions = () => {
+const useWindowDimensions = (): WindowDimensionsType => {
 	const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions() as WindowDimensionsType)
 
 	useEffect(() => {
