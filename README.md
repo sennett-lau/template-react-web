@@ -50,4 +50,4 @@ const { width, height } = useWindowDimensions();
 ```
 
 ## License
-This library is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This library is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for more information.
