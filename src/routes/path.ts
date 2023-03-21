@@ -1,6 +1,6 @@
 const Path = {
-	Home: {
-		Root: '/',
-	},
+  Home: {
+    Root: '/',
+  },
 }
 export default Path
