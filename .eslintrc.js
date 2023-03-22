@@ -21,10 +21,6 @@ module.exports = {
 		'@typescript-eslint'
 	],
 	'rules': {
-		'indent': [
-			'error',
-			'tab'
-		],
 		'quotes': [
 			'error',
 			'single'
