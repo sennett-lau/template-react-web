@@ -1,3 +1,2 @@
-import { WindowDimensionsType } from './WindowDimensions'
-
-export type { WindowDimensionsType }
+export * from './WindowDimensions'
+export * from './general'
