@@ -19,3 +19,16 @@ export const objMapToList = <T>(obj: IGenericObject<T>): T[] => {
 
   return list
 }
+
+export const keyObjMapToList = <T>(obj: IGenericObject<T>, keyName: string, valueName: string): { [key: string]: IGenericObject<T> }[] => {
+  const list= []
+
+  Object.keys(obj).forEach((key: string) => {
+    list.push({
+      [keyName]: key as string,
+      [valueName]: obj[key] as T,
+    })
+  })
+
+  return list
+}
